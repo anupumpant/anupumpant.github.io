@@ -1,0 +1,44 @@
+---
+title: "ISO860 Date and Time Format"
+date: 2020-05-03
+categories:
+  - general
+tags:
+  - standards
+  - utility
+---
+
+Jekyll themes like minimal mistakes had this special section on the top of the page which looked like meta data.
+'''
+---
+title: "Post: Modified Date"
+last_modified_at: 2016-03-09T16:20:02-05:00
+categories:
+  - Blog
+tags:
+  - Post Formats
+  - readability
+  - standard
+---
+'''
+I was wondering about what is the right way to write this metadata. So I landed on the [Jekyll documentation for writing posts]{https://jekyllrb.com/docs/posts/#displaying-an-index-of-posts) which explained that this top part is called 'front matter'.
+
+As a tangent, I wished I could learn about the best practices for recording meta data. I remember that Stanford libraries has a good reference for making good metadata. I'll leave it as a note to self for later.
+
+The time section ('last modified at') in the front matter of one of the default posts troubled me. I wanted to figure what kind of time formatting this was. And what was the a fairly easy way to add it to my post.
+
+I found that the time format was called an ISO8601 time format. I found a few quick details here: [ISO8601 documentation](https://www.iso.org/iso-8601-date-and-time-format.html).
+
+This graphic from [elsewhere](http://apiux.com/2013/03/20/5-laws-api-dates-and-times/) explains it well:
+
+![ISO8601 explained](/assets/iso-8601.jpg)
+
+And finally, I found a [resource to generate](https://www.utctime.net/) the time and date for right now, that I could simply copy-paste on to my front matter.
+
+I would be a fun activity to learn about the other famous time formats like the UTC. Well, it is an endless rabbit hole I want to ignore for now.
+
+A still lingering question I have - What time do people see. Is it the UTC, or does Jekyll read their location and converts it to the readers time zone. For now, it is not important to me. I hope to figure it out naturally, whenever the time comes. My guess is that since I am generating static pages, it likely shows the time I type in. There might be no conversion happening when the static page gets regenerated in someone else's browser.
+
+I normally name my files starting with a string which looks like: 'yymmdd_'. It helps me get the work done. Now that I know about the standard, it wouldn't be so hard to modify my file naming system to the ISO8601 - 'yyyy-mm-dd'. I  now care about the ISO8601 standard and hope to hold it dear.
+
+![An finally, a relevant XKCD.](https://xkcd.com/1179/)

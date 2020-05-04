@@ -7,26 +7,27 @@ tags:
   - GitHub
 ---
 
-Let me start by saying it was surprisingly easy You can either follow the 2 min guide [here](https://pages.github.com/), or follow the steps below.
+Let me start by saying it was surprisingly easy to make your GitHub page! You can either follow the 2 min guide [here](https://pages.github.com/), or follow the steps below.
 
 ### Step 1
-Of course, you need a GitHub account first. So go ahead and [make one for yourself](https://github.com/) if you do not have it yet.
+Of course, I first needed a GitHub account (I had one). [Make one for yourself](https://github.com/).
 
 ### Step 2
-Click the create repository link on the top left corner of the first page (as shown below) after I logged in.
+I then clicked the [create repository](https://github.com/new) link on the top left corner of the first page (as shown below) after I logged in.
 
 <img src="/assets/images/create_rep_button.PNG" align="center" alt="Create repository button" height="75" />
 
 ### Step 3
-Say your GitHub ID is  **123**. In the  **Repository name** section, write **123.github.io** and hit create repository.
+Say your GitHub ID is  '112233' (mine is '[anupumpant](https:github.com/anupumpant)'). In the  'Repository name' section, write '112233.github.io' and hit create repository. Since mine is anupumpant, I made a repository named 'anupumpant.github.io'.
 
 ### Step 4
-Create a file called **index.html**.
-To do this, first click **Create new file** near the top of the repository (shown below).
+I created a file called 'index.html'.
+To do this, I clicked 'Create new file' near the top of the repository (shown below).
 
 <img src="/assets/images/createfile-button.PNG" align="center" alt="Create repository button" height="75" />
-Write **index.html** in the **Name your file** section.
-And copy paste the following in the big white space below it.
+
+Then I wrote 'index.html' in the 'Name your file' section.
+And copy pasted the following basic HTML code in the big white space below it.
 ```
 <!DOCTYPE html>
 <html>
@@ -37,10 +38,11 @@ And copy paste the following in the big white space below it.
 </html>
 ```
 
-It should look like this now:
+It looked like this:
 <img src="/assets/images/createfile.PNG" align="center" alt="Create repository button" height="400" />
 
 ### Step 5
-Click the commit new file button at the bottom of the page. Done!
-You can now go to the website called **123.github.io** (replace 123 with your username, again), and see your basic html.
-Spicing it up is super easy too. I will share that in the next post.
+I clicked 'Commit new file' button at the bottom of the page. Done!
+My basic website at 'anupumpant.github.io' was ready (replace 'anupumpant' with your username, again).
+
+Sure I Spiced it up later using the [minimal mistakes](https://mmistakes.github.io/minimal-mistakes/) theme and it started looking like it is now. Their [quick start guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) was easy to follow and took me only a few minutes to set this website up. I would encourage you to go ahead and try your hand at it.

@@ -7,7 +7,7 @@ tags:
   - GitHub
 ---
 
-Let me start by saying it was surprisingly easy to make your GitHub page! You can either follow the 2 min guide [here](https://pages.github.com/), or follow the steps below.
+Let me start by saying it was surprisingly easy to make my GitHub page! You can either follow the 2 min official guide [here](https://pages.github.com/), or follow the steps below.
 
 ### Step 1
 Of course, I first needed a GitHub account (I had one). [Make one for yourself](https://github.com/).
@@ -18,10 +18,10 @@ I then clicked the [create repository](https://github.com/new) link on the top l
 <img src="/assets/images/create_rep_button.PNG" align="center" alt="Create repository button" height="75" />
 
 ### Step 3
-Say your GitHub ID is  '112233' (mine is '[anupumpant](https:github.com/anupumpant)'). In the  'Repository name' section, write '112233.github.io' and hit create repository. Since mine is anupumpant, I made a repository named 'anupumpant.github.io'.
+Say your GitHub ID is  '112233' (mine is '[anupumpant](https:github.com/anupumpant)'). In the  'Repository name' section, write '112233.github.io' and hit create repository. Since my username is anupumpant, I made a repository named 'anupumpant.github.io'.
 
 ### Step 4
-I created a file called 'index.html'.
+Inside the repository I created a file called 'index.html'.
 To do this, I clicked 'Create new file' near the top of the repository (shown below).
 
 <img src="/assets/images/createfile-button.PNG" align="center" alt="Create repository button" height="75" />
@@ -38,7 +38,7 @@ And copy pasted the following basic HTML code in the big white space below it.
 </html>
 ```
 
-It looked like this:
+The end result looked like this:
 <img src="/assets/images/createfile.PNG" align="center" alt="Create repository button" height="400" />
 
 ### Step 5

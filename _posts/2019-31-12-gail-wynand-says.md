@@ -8,4 +8,4 @@ tags:
 ---
 
 > "If lightning strikes a rotten tree and it collapses, it's not the fault of the lightning."
-> - Ayn Rand, [The Fountainhead](https://www.goodreads.com/book/show/2122.The_Fountainhead)
+> -Ayn Rand, [The Fountainhead](https://www.goodreads.com/book/show/2122.The_Fountainhead)

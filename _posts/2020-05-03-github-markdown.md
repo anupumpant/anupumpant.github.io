@@ -9,10 +9,9 @@ tags:
 
 I do not get Github. I want to get it.
 I want to build useful stuff on it like [Cyrille Rossant](http://cyrille.rossant.net) has done.
-Do I start a project? Or do I start a repository? And then how does markdown formatting work? There seems to be a learning curve.
-Here's my first repository.
+Markdown seems to be the most important thing I need to learn to do anything.
 
-# First place to start:
+# First Place to Start:
 
 ### [GitHub guide](https://guides.github.com/) - 67 min read
 The link contains the following guides. You may not need to read all of them at first. I started with the 'Mastering Markdown' first.
@@ -26,7 +25,7 @@ The link contains the following guides. You may not need to read all of them at 
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - 3 min read
 * [Documenting your projects on GitHub](https://guides.github.com/features/wikis/) - 10 min read
 
-# Lesson 1 - Writing Markdown:
+# Writing Markdown:
 
 I was curious about markdowns first. In an effort to learning-by-doing I wanted to make a new repository and write a 'Readme.md'. For reference, I used this 'Readme.md' document created by [Cyrille Rossant](http://cyrille.rossant.net) [here](https://raw.githubusercontent.com/ipython-books/cookbook-2nd/master/README.md). The output of which looks like [this](https://github.com/ipython-books/cookbook-2nd).
 

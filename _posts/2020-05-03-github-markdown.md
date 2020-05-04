@@ -1,6 +1,7 @@
 ---
 title: "Trying my Hand at Markdown"
 date: 2020-05-03
+comments: true
 categories:
   - Blog
 tags:

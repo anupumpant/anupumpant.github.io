@@ -1,6 +1,7 @@
 ---
 title: "Making my First GitHub page"
 date: 2020-05-03
+comments: true
 categories:
   - Blog
 tags:

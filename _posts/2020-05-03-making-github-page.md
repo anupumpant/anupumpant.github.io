@@ -41,6 +41,6 @@ It should look like this now:
 <img src="/assets/images/createfile.PNG" align="center" alt="Create repository button" height="400" />
 
 ### Step 5
-Click the commit new file button on the bottom of the page. Done!
+Click the commit new file button at the bottom of the page. Done!
 You can now go to the website called **123.github.io** (replace 123 with your username, again), and see your basic html.
 Spicing it up is super easy too. I will share that in the next post.

@@ -1,6 +1,7 @@
 ---
 title: "Gail Wynand from The Fountainhead says"
 date: 2019-12-31
+comments: true
 categories:
   - Blog
 tags:

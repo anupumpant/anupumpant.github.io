@@ -27,7 +27,7 @@ The link contains the following guides. You may not need to read all of them at 
 
 # Writing Markdown:
 
-I was curious about markdowns first. In an effort to learning-by-doing I wanted to make a new repository and write a 'Readme.md'. For reference, I used this 'Readme.md' document created by [Cyrille Rossant](http://cyrille.rossant.net) [here](https://raw.githubusercontent.com/ipython-books/cookbook-2nd/master/README.md). The output of which looks like [this](https://github.com/ipython-books/cookbook-2nd).
+I was curious about markdowns first. In an effort to learn-by-doing I wanted to make a new repository and write a 'Readme.md'. For reference, I used this 'Readme.md' document created by [Cyrille Rossant](http://cyrille.rossant.net) [here](https://raw.githubusercontent.com/ipython-books/cookbook-2nd/master/README.md). The output of which looks like [this](https://github.com/ipython-books/cookbook-2nd).
 
 ### Step 1:
 I made a GitHub account (I had an existing account). I simply logged into my account from [GitHub.com](https://github.com/login).

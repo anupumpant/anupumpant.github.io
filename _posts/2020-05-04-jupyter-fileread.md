@@ -5,7 +5,6 @@ comments: true
 categories:
   - Blog
 tags:
-  - Python
   - Jupyter
 ---
 I use Jupyter notebooks to open and analyze spectral data in my lab. I find it inefficient to manually copy paste file locations into a string or form a list of strings for multiple files.

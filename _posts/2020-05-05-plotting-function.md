@@ -86,4 +86,4 @@ print(ysum[-1])
 plt.plot(x,ysum)
 plt.yscale('log')
 ```
-![png](/assets/images/output_2_0.png)
+![png](/assets/images/output_3_0.png)

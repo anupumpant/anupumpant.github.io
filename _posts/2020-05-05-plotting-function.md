@@ -88,8 +88,29 @@ plt.yscale('log')
 ```
 ![png](/assets/images/output_3_0.png)
 
-So far I have been able to compute it till n = 1,000,000,000
-For n = 1,000,000,000, the value is 30.314546121375972.
+So far I have been able to compute it till n = 43.6 billion.
+For n = 43,600,000,000, the value is 30.314546158938263.
+I did it with piecewise calculations, as a single large calculation kept crashing the program because it ran out of memory.
+I used the following cell.
+
+```python
+def ysum(minn,maxn):
+    x = np.linspace(minn,maxn,maxn-minn+1)
+    #print(x[10])
+    y = (1/(x**3*np.sin(x)**2))
+    ysum = np.sum(y)
+    return ysum
+
+start = 1
+maxn = 1E11
+x1 = np.arange(start=start,stop=maxn, step=1E8)
+x2 = x1+1E8-1
+
+sum=0
+for i in range(0,len(x1)):
+    sum = sum+ysum(x1[i],x2[i])
+    print(x1[i],'\t', x2[i],'\t',sum)
+```
 
 Although, all of that might be for nothing (except for having learned some Jupyter), as it seems like some part of it may have been resolved. The paper below is beyond what I can possibly ever understand.
 [On convergence of the Flint Hills series.](https://arxiv.org/pdf/1104.5100.pdf)

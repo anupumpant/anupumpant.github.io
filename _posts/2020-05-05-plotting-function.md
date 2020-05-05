@@ -15,9 +15,7 @@ So I thought it would be an interesting exercise to visualize it and form an int
 
 ### Plotting the funtion:
 
-```math
-y=\frac{1}{x^3\sin^2(x)}
-```
+![Equation](/assets/images/func_1.JPG)
 
 ```python
 import numpy as np

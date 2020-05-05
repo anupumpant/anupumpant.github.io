@@ -87,3 +87,6 @@ plt.plot(x,ysum)
 plt.yscale('log')
 ```
 ![png](/assets/images/output_3_0.png)
+
+So far I have been able to compute it till n = 1,000,000,000
+For n = 1,000,000,000, the value is 30.314546121375972

@@ -9,7 +9,7 @@ tags:
   - Mathematics
 ---
 
-The convergence of the summation of the following series is still an open problem in Mathematics.
+The convergence of the summation of the following series is still an open problem in Mathematics. See the [Twitter thread](https://twitter.com/fermatslibrary/status/1245343415010811906) for more discussion on this.
 
 So I thought it would be an interesting exercise to visualize it and form an intuition.
 

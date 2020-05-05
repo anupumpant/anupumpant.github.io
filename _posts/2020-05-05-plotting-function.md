@@ -60,5 +60,30 @@ plt.title("y=1/(x**3*np.sin(x)**2)")
 # Shows the plot
 plt.show()
 ```
+![png](/assets/images/output_2_0.png)
 
+### Now, plotting the partial sums
+
+![png](/assets/images/func_2.JPG)
+
+```python
+maxn = 100000
+x = np.linspace(1,maxn,maxn)
+y = (1/(x**3*np.sin(x)**2))
+
+ysum = np.zeros(len(x))
+for i in range(0,len(x)):
+    ysum[i] = np.sum(y[:i])
+
+plt.plot(x,ysum)
+print(ysum[-1])
+```
+
+30.314520869819052
+
+```python
+%matplotlib notebook
+plt.plot(x,ysum)
+plt.yscale('log')
+```
 ![png](/assets/images/output_2_0.png)

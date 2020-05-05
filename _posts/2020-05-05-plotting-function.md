@@ -15,7 +15,7 @@ So I thought it would be an interesting exercise to visualize it and form an int
 
 ### Plotting the funtion:
 
-![Equation](/assets/images/func_1.JPG =50x)
+<img src="/assets/images/func_1.JPG" height="50" />
 
 ```python
 import numpy as np

@@ -88,8 +88,12 @@ plt.yscale('log')
 ```
 ![png](/assets/images/output_3_0.png)
 
-So far I have been able to compute it till n = 43.6 billion.
-For n = 43,600,000,000, the value is 30.314546158938263.
+So far I have been able to compute it till n = 50 billion.
+
+**For n = 50,000,000,000, the value is 30.31454615893876.**
+
+![JPG](/assets/images/partialsums_func2.JPG)
+
 I did it with piecewise calculations, as a single large calculation kept crashing the program because it ran out of memory.
 I used the following cell.
 
@@ -113,5 +117,7 @@ for i in range(0,len(x1)):
 ```
 
 Although, all of that might be for nothing (except for having learned some Jupyter), as it seems like some part of it may have been resolved. The paper below is beyond what I can possibly ever understand.
+
 [On convergence of the Flint Hills series.](https://arxiv.org/pdf/1104.5100.pdf)
+
 Found on [this thread](https://mathoverflow.net/questions/24579/convergence-of-sumn3-sin2n-1) at math overflow.

@@ -89,4 +89,8 @@ plt.yscale('log')
 ![png](/assets/images/output_3_0.png)
 
 So far I have been able to compute it till n = 1,000,000,000
-For n = 1,000,000,000, the value is 30.314546121375972
+For n = 1,000,000,000, the value is 30.314546121375972.
+
+Although, all of that might be for nothing (except for learning some Jupyter), as it seems like it has been resolved.
+[On convergence of the Flint Hills series.](https://arxiv.org/pdf/1104.5100.pdf)
+Found on [this thread](https://mathoverflow.net/questions/24579/convergence-of-sumn3-sin2n-1) at math overflow.

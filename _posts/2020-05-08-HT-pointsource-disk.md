@@ -1,5 +1,5 @@
 ---
-title: "Temperature in a 2D-d=Disc with Point Heat Hource at the Center"
+title: "Temperature in a 2D-Disc with Point Heat Hource at the Center"
 date: 2020-05-05
 comments: true
 categories:
@@ -10,7 +10,7 @@ tags:
   - Physics
 ---
 
-The temperature change (ΔT) distribution, due a point source of 1 W at the center, in a 2 dimensional disc has been derived analytically and can be represented as an exact function.
+The temperature change (ΔT) distribution, due a point source at the center, in a 2 dimensional disc has been derived analytically and can be represented as an exact function.
 Note, that the boundary at the disc circumference is at a constant temperature (T<sub>0</sub>).
 The [temperature change distribution is given using](https://www.comsol.com/model/download/646761/models.heat.localized_heat_source.pdf):
 

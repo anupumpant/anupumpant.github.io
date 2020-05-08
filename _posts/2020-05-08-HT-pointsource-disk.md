@@ -1,5 +1,5 @@
 ---
-title: "Temperature in a 2D-Disc with Point Heat Hource at the Center"
+title: "Temperature in a 2D-Disc with Point Heat Source at the Center"
 date: 2020-05-05
 comments: true
 categories:
@@ -11,7 +11,7 @@ tags:
 ---
 
 The temperature change (ΔT) distribution, due a point source at the center, in a 2 dimensional disc has been derived analytically and can be represented as an exact function.
-Note, that the boundary at the disc circumference is at a constant temperature (T<sub>0</sub>).
+Note, that the boundary at the disc circumference is at a constant temperature (T<sub>0</sub>), the value of which doesn't matter as we are only calculating the change (ΔT).
 The [temperature change distribution is given using](https://www.comsol.com/model/download/646761/models.heat.localized_heat_source.pdf):
 
 ![function](\assets\images\HTfunc.JPG)
@@ -19,12 +19,12 @@ The [temperature change distribution is given using](https://www.comsol.com/mode
 where α is the thermal diffusivity, given by dividing the thermal conductivity of a material with its specific heat capacity and the mass density. The instantaneous distance is `r` and the disc radius is `R`.
 
 To plot the temperature distribution, I first create a 2D `meshgrid` with 551 points in x and y direction (-1 to 1) each using `meshx` and `meshy`.
-Next, I get the distance of each point in the mesh from the source position and put it in a 2D matrix called `DIST`
-Now, given the radius `R=1` for the disc, it is easy to get the temperature distribution by feeding in `DIST` inside the function above.
+Next, I get the distance of each point in the mesh from the source position and put it in a 2D array called `DIST`
+Now, given the radius `R=1` for the disc, it is easy to get the temperature distribution by feeding in `DIST` as `r` inside the vectorized function above.
 
 The `DIST`, and the corresponding tentative temperature distribution (still needs correction) are then plotted.
 
-The max temperature change reaches a singularity at the source position. The max reported change is higher if a larger and larger mesh (with smaller step sizes in x and y) is used. To use not-a-very-large-mesh I just add a nanometer (`Qs`) to the existing `DIST` mesh with 551x551 values in it. This removes the 0 distance at the center and uses a finite value to start from. Hence the max temperature change shown is dependent on the `Qs`, or the size of the source. The smaller it is, the higher the max change in temperature. For infinitely small `Qs` the max temperature change tends to infinity - a singularilty.
+The max temperature change reaches a singularity at the source position. The max reported change is higher if a larger and larger mesh (with smaller step sizes in x and y) is used. To use not-a-very-large-mesh I just add a millimeter (`Qs`) to the existing `DIST` mesh with 551x551 values in it. This removes the 0 distance at the center and uses a finite value to start from. Hence the max temperature change shown is dependent on the `Qs`, or the size of the source. The smaller `Qs` is, the higher will be your reported max change in temperature. For infinitely small `Qs` the max temperature change tends to infinity - a singularilty.
 
 ```python
 import numpy as np
@@ -50,9 +50,9 @@ R=1
 Qx = 0              # x position of the source
 Qy = 0
 Qcord = [Qx, Qy]
-Qs = 1e-9
+Qs = 1e-3
 Q = 1
-mult = Q/(2*np.pi*alpha)+Qs
+mult = Q/(2*np.pi*alpha)
 
 def Tempr(distance,end):
     T = -np.log(distance/end)
@@ -61,7 +61,7 @@ def Tempr(distance,end):
 distx = np.sqrt((X-Qx)**2)
 disty = np.sqrt((Y-Qy)**2)
 
-DIST = np.sqrt((distx**2+disty**2))
+DIST = np.sqrt((distx**2+disty**2))+Qs
 
 plt.figure(figsize = (7,7))
 # The shape now only depends on the meshsizes.
@@ -70,14 +70,6 @@ plt.imshow(DIST)
 plt.colorbar()
 plt.show()
 
-plt.figure(figsize = (15,4))
-plt.title('Distance of source')
-plt.plot(Qd0, label='from up boundary')
-plt.plot(Qd1, label='from right boundary')
-plt.plot(Qd2, label='from down boundary')
-plt.plot(Qd3, label='from left boundary')
-plt.legend()
-plt.show()
 
 plt.figure(figsize = (7,7))
 plt.title('$\Delta T$ plot')

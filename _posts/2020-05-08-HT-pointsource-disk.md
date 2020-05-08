@@ -1,5 +1,5 @@
 ---
-title: "Temperature in a 2D-disc with point heat source at the center"
+title: "Temperature in a 2D-d=Disc with Point Heat Hource at the Center"
 date: 2020-05-05
 comments: true
 categories:

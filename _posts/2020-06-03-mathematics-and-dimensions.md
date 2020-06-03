@@ -12,7 +12,7 @@ I was at a [friend's](https://yuchaz.github.io/) PhD general exam today. Honestl
 
 He talked about his work in higher-dimensional geometric data analysis. Here is what I thought.
 
-Mathematicians have developed tools that let them handle complicated stuff using simple abstractions. It helps them peer deeper into the reality. Our senses in comparison provide access to only a few of those dimensions.
+Mathematicians have developed tools that let them handle complicated stuff using simple abstractions. These tools help them peer deeper into the reality. Our senses in comparison provide access to only a few of those dimensions.
 
 In the words of Paul Dirac:
 

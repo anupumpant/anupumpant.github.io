@@ -8,9 +8,11 @@ tags:
   - Mathematics
 ---
 
-I was at a [friend's](https://yuchaz.github.io/) PhD general exam today. Honestly, I didn't grasp much but was there to support him. Firstly, it made me aware of my ignorace. He talked about his work in higher-dimensional geometric data analysis methods. Secondly, here's what I thought:
+I was at a [friend's](https://yuchaz.github.io/) PhD general exam today. Honestly, I did not grasp much but was there to support him. It made me aware of a certain *dimension* of my ignorance that I do not usually get to think about.
 
-Mathematicians have developed tools that let them handle complicated stuff using simple abstractions. It helps them peer deeper into the reality. Our senses in comparision provide access to only a few of those dimensions.
+He talked about his work in higher-dimensional geometric data analysis. Here is what I thought.
+
+Mathematicians have developed tools that let them handle complicated stuff using simple abstractions. It helps them peer deeper into the reality. Our senses in comparison provide access to only a few of those dimensions.
 
 In the words of Paul Dirac:
 
